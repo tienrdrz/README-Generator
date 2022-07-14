@@ -1,9 +1,13 @@
-// TODO: Include packages needed for this application
+//Included packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
 
+//linking the proper files
 const generateMarkdown = require('./utils/generateMarkdown.js')
 
+/*start of the prompted questions, included is the list of questions in
+order, what type of question, how to answer, and the message returned
+if your answer does not meet the requirements*/
 const promptUser = () => {
     return inquirer.prompt([
         {
@@ -128,7 +132,7 @@ const promptUser = () => {
 };
 
 // writing new readme file
-
+// using a promise that rejects the file if theres an error, and gives a message if succesful
 const writeToFile = fileContent => {
     return new Promise ((resolve, reject) => {
     fs.writeFile('./finished.file/Readme.md', fileContent, err =>{
@@ -145,6 +149,7 @@ const writeToFile = fileContent => {
 });
 }
 
+// after calling the prompts, writes the content in the new readme file
 promptUser()
 .then(titleInput => {
     console.log(titleInput);
