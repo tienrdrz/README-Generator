@@ -24,6 +24,9 @@
   ## Features
   The table of contents, click on the links and it will take you to the designated part of the readme.
   
+  ## Testing 
+  To test my project, you must go to the right directory in the command line and use 'node index' to begin the prompts.
+
   ## License
   Babel
     [![License](https://img.shields.io/badge/License-Babel-blue.svg)](https://opensource.org/licenses/Babel)
