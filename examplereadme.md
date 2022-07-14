@@ -7,7 +7,7 @@
 - [Credits](#credits)
 - [Features](#features)
 - [License](#license)
-- [Additional Info](#github)
+- [Additional Info](#additional-info)
 
   ## Description
   The ReadME Generator will provide you with a functional readme file that contains data that your provide via prompts in the command line.
