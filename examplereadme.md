@@ -26,7 +26,6 @@
   
   ## License
   No License
-    https://img.shields.io/badge/Babel-License-blue
 
   ## Additional Info
     - Email: etiennerodriguez3@gmail.com
