@@ -15,29 +15,29 @@ function generateMarkdown(data) {
 - [License](#license)
 - [Additional Info](#additional-info)
 
-  ## Description
+## Description
   ${data.description}
 
-  ## Installation
+## Installation
   ${data.installation}
 
-  ## Usage
+## Usage
   ${data.usage}
 
-  ## Credits
+## Credits
   ${data.credits}
 
-  ## Features
+## Features
   ${data.features}
 
-  ## Testing
+## Testing
   ${data.testing}
   
-  ## License
+## License
   ${data.license}
   [![License](https://img.shields.io/badge/License-${data.license}-blue.svg)](https://opensource.org/licenses/${data.license})
 
-  ## Additional Info
+## Additional Info
     - Email: ${data.email}
     - Github: https://github.com/${data.github}
 `;
