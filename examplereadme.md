@@ -34,4 +34,4 @@
 
   ## Additional Info
     - Email: etiennerodriguez3@gmail.com
-    - Github: "https://github.com/tienrdrz"
+    - Github: https://github.com/tienrdrz
