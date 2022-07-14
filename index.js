@@ -3,7 +3,7 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 
 //linking the proper files
-const generateMarkdown = require('./utils/generateMarkdown.js')
+const generateMarkdown = require('./Develop/utils/generateMarkdown.js')
 
 /*start of the prompted questions, included is the list of questions in
 order, what type of question, how to answer, and the message returned
@@ -89,10 +89,23 @@ const promptUser = () => {
           }
        },
        {
-        type:'checkbox',
+        type:'input',
+        name:'testing',
+        message:'Provide any information needed in order to properly test your project.',
+        validate: testingInput => {
+            if(testingInput) {
+              return true;
+            } else {
+              console.log('Please give instructions on how to test your project!');
+              return false;
+            }
+          }
+       },
+       {
+        type:'list',
         name:'license',
         message:'Please provide some form of license details.',
-        choices: ['Babel', 'Bower', '.NET', 'Rails', 'No License'],
+        choices: ['Apache_2.0', 'Boost', 'Babel', 'Bower', 'Eclipse','.NET', 'Rails', 'No_License'],
         validate: licenseInput => {
             if(licenseInput) {
               return true;
@@ -135,7 +148,7 @@ const promptUser = () => {
 // using a promise that rejects the file if theres an error, and gives a message if succesful
 const writeToFile = fileContent => {
     return new Promise ((resolve, reject) => {
-    fs.writeFile('./finished.file/Readme.md', fileContent, err =>{
+    fs.writeFile('./Develop/finished.file/Readme.md', fileContent, err =>{
         if (err) {
             reject(err);
             return;
@@ -158,25 +171,3 @@ promptUser()
 .then(pageReadMe => {
     return writeToFile(pageReadMe)
 })
-
-
-
-
-
-
-
-
-
-
-
-// // TODO: Create an array of questions for user input
-// const questions = [];
-
-// // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
-
-// // TODO: Create a function to initialize app
-// function init() {}
-
-// // Function call to initialize app
-// init();

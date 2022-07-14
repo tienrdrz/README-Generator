@@ -25,7 +25,9 @@
   The table of contents, click on the links and it will take you to the designated part of the readme.
   
   ## License
-  No License
+  Babel
+    [![License](https://img.shields.io/badge/License-Babel-blue.svg)](https://opensource.org/licenses/Babel)
+
 
   ## Additional Info
     - Email: etiennerodriguez3@gmail.com

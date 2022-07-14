@@ -1,32 +1,37 @@
-# ReadME Generator
- 
+# gsfdsdfg
+
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
 - [Features](#features)
+- [Testing](#testing)
 - [License](#license)
 - [Additional Info](#email)
 
   ## Description
-  The ReadME Generator will provide you with a functional readme file that contains data that your provide via prompts in the command line.
+  sfdg
 
   ## Installation
-  There is no installation required.
+  gfsd
 
   ## Usage
-  Once in the command line and in the right directory, run node index and answer the questions that are prompted to the best of your abilities, giving as much detail about your project as you'd like.
+  gfdsgsfd
 
   ## Credits
-  No other collaborators.
+  sdfg
 
   ## Features
-  The table of contents, click on the links and it will take you to the designated part of the readme.
+  sfdg
+
+  ## Testing
+  sfdg
   
   ## License
-  No License
+  Apache-2.0
+  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache_2.0)
 
   ## Additional Info
-    - Email: etiennerodriguez3@gmail.com
-    - Github: "https://github.com/tienrdrz"
+    - Email: sfdgsgf
+    - Github: "https://github.com/sdgf"
