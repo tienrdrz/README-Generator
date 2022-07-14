@@ -10,8 +10,8 @@ After starting the file through node and the command line, a series of questions
 
 ## Screen Recorded Video
 
-https://drive.google.com/file/d/1B3UvkpTJBGnBnN2Wviha578ziT5KQ3Ip/view
+https://drive.google.com/file/d/11yMl5ysJdmmeMhh65JqM35Gc1w79greN/view
 
 ## Sample ReadME
 
-![image](https://user-images.githubusercontent.com/100370557/178126672-1db3cc66-eaf5-4ce1-afbc-b36697036785.png)
+![image](https://user-images.githubusercontent.com/100370557/179047684-3fbad6ed-1b17-4c23-aa5d-47c8332f9b61.png)
