@@ -1,4 +1,4 @@
-# gsfdsdfg
+# readme generator
 
 ## Table of Contents
 - [Description](#description)
@@ -8,30 +8,30 @@
 - [Features](#features)
 - [Testing](#testing)
 - [License](#license)
-- [Additional Info](#email)
+- [Additional Info](#additional-info)
 
-  ## Description
-  sfdg
+## Description
+  it generates a readme file based on the info you give
 
-  ## Installation
-  gfsd
+## Installation
+  no installation process
 
-  ## Usage
-  gfdsgsfd
+## Usage
+  in order to use this, you must run 'node index' through the command line
 
-  ## Credits
-  sdfg
+## Credits
+  no other collaborators
 
-  ## Features
-  sfdg
+## Features
+  the table of contents feature, where you click on a section and it brings you to it
 
-  ## Testing
-  sfdg
+## Testing
+  to test this, run 'node index' in the command line and answer the prompted questions, when you are finished you will  be able to view the finished  product in the generated readme folder
   
-  ## License
-  Apache-2.0
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache_2.0)
+## License
+  No_License
+  [![License](https://img.shields.io/badge/License-No_License-blue.svg)](https://opensource.org/licenses/No_License)
 
-  ## Additional Info
-    - Email: sfdgsgf
-    - Github: "https://github.com/sdgf"
+## Additional Info
+    - Email: etiennerodriguez3@gmail.com
+    - Github: https://github.com/tienrdrz
