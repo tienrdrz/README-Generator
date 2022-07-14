@@ -13,7 +13,7 @@ function generateMarkdown(data) {
 - [Features](#features)
 - [Testing](#testing)
 - [License](#license)
-- [Additional Info](#email)
+- [Additional Info](#additional-info)
 
   ## Description
   ${data.description}
@@ -39,7 +39,7 @@ function generateMarkdown(data) {
 
   ## Additional Info
     - Email: ${data.email}
-    - Github: "https://github.com/${data.github}"
+    - Github: https://github.com/${data.github}
 `;
 }
 //included under license is a link that, depending on the license you choose, will display a badge
